@@ -1,7 +1,33 @@
 @import url(variables.css);
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "SF-Pro-Text-Regular";
+   text-decoration: none;
+}
+
+.menu {
+   /* background-color: var(--color-secundary); */
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}
+
+.menu ul {
+   display: flex;
+   height: 70px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.menu li {
+   list-style: none;
+}
+
+.menu i {
+   color: var(--color-icons);
+   font-size: 30px;
 }
